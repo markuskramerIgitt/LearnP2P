@@ -4,5 +4,5 @@
 - DHT is intended to bootstrap/discover peers/swarms.
 - PEX is intended to reflect which peers a client is currently connected to, PEX provides better liveness information than DHT
 
-[DHT](https://en.wikipedia.org/wiki/Distributed_hash_table) and [PEX](https://en.wikipedia.org/wiki/Peer_exchange) in Wikipedia:
+[DHT](https://en.wikipedia.org/wiki/Distributed_hash_table)(2003-2020) and [PEX](https://en.wikipedia.org/wiki/Peer_exchange)(2006-2019) in Wikipedia:
 - PEX cannot be used on its own to introduce a new peer to a swarm. To make initial contact with a swarm, a peer can use a router computer called a bootstrap node to find a DHT which describes a swarm's list of peers.
