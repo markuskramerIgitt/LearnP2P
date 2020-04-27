@@ -11,6 +11,6 @@
 
 
 ### Local Service Discovery
-[LSD in BEP14](http://bittorrent.org/beps/bep_0014.html) 
- - announce the presence to local neighbors.
- - A peer uses [multicast](https://en.wikipedia.org/wiki/Multicast_address) to announce its torrents to a group of (local) hosts.
+[LSD in BEP14](http://bittorrent.org/beps/bep_0014.html)(2015-2017):
+ - LSD allows peers to announce their presence to the network segments "org-local" and "site-local".
+ - A peer can use [multicast](https://en.wikipedia.org/wiki/Multicast_address) to announce its torrents to a group of (local) hosts.
